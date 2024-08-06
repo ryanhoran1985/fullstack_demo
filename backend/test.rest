@@ -1,0 +1,23 @@
+###
+
+GET http://localhost:4000/test
+
+###
+
+GET http://localhost:4000/users
+
+###
+
+POST http://localhost:4000/users
+Content-Type: application/json
+
+{
+    "name": "Phoenix",
+    "email": "phoenix@besties.com"
+}
+
+###
+
+GET http://localhost:4000/users/2
+
+###
